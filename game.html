@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Lux</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="all,follow">
+    <!-- Bootstrap and Font Awesome css-->
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Google fonts-->
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Karla">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700">
+    <!-- Theme stylesheet-->
+    <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
+    <!-- Custom stylesheet - for your changes-->
+    <link rel="stylesheet" href="css/custom.css">
+    <!-- Animation stylesheet - for your changes-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.0/css/mdb.min.css" rel="stylesheet">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <!-- Tweaks for older IEs--><!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+  </head>
+  <body>
+    <script>
+  // Generate cookie for tracking
+  var d = new Date();
+  document.cookie = "user=mkt" + d.getTime(); 
+  function getCookie(cname) {
+    var name = cname + "=";
+    var decodedCookie = decodeURIComponent(document.cookie);
+    var ca = decodedCookie.split(';');
+    for(var i = 0; i <ca.length; i++) {
+      var c = ca[i];
+      while (c.charAt(0) == ' ') {
+        c = c.substring(1);
+      }
+      if (c.indexOf(name) == 0) {
+        return c.substring(name.length, c.length);
+      }
+    }
+    return "";
+  }
+</script>
+    <div style="background-image: url('img/lux-background.jpg')" class="main"> 
+      <!-- <div class="overlay"></div> -->
+      <div class="container-fluid">
+        <div class="row">
+          <nav class="navbar navbar-light bg-light navbar-right">
+        <a class="navbar-brand" href="#">
+         <img src="img/unilever-logo.png" width="auto" height="80" alt="Unilever Logo">
+            </a>
+        </nav>
+          
+        </div>
+        
+        <div class="body-game">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-3 col-sm-offset-1 text-center">
+              <div class="options lux-form text-center">
+                <h3 class="text-lux-small">Upload your picture</h3>
+                  <input type="file" placeholder="Upload your image here" id="file"/>
+                  <h3 class="text-lux-small">Enter your name</h3>
+                  <input type="text" id="top-line" placeholder="I am .....">
+                  <h3 class="text-lux-small">Tell us what makes you a multidimensional woman<br>(More than a pretty face)</h3>
+                  <textarea placeholder="What do you do?" rows="4" id="bottom-line"></textarea>
+                  <button class="lux-button" id="saveBtn" disabled>Download Image</button>
+                  
+                <!-- Go to www.addthis.com/dashboard to customize your tools -->
+                <div class="addthis_inline_share_toolbox"></div>
+                <script async src="https://static.addtoany.com/menu/page.js"></script>
+                <!-- AddToAny END -->
+              </div>
+              <div class="row">
+                  <div class="col-md-6 col-md-offset-3 lux-form"
+              <form>  
+            </form>
+            </div>
+          </div>
+        </div>
+      </div>
+            <div style="background-image: url('img/chiomaimg-bg.jpg'); padding-top: 100px;" class="col-md-3 col-sm-offset-1 text-center game-tab">
+              <canvas id="c"></canvas>
+            </div>
+          </div>
+        </div>
+      </div>
+        <!-- <div class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <p class="text-lux-small">Lux &copy;2018</p>
+            </div>
+          </div>
+        </div>
+      </div> -->
+    </div>
+    <!-- JAVASCRIPT FILES -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- MDB core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.0/js/mdb.min.js"></script>
+    <script>window.jQuery || document.write('<script src="javascripts/vendor/jquery-1.11.0.min.js"><\/script>')</script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.cookie.js"></script>
+    <script src="js/front.js"></script>
+    <script src="js/app.js"></script>
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID.-->
+    <script>
+      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+      e.src='//www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+      ga('create','UA-XXXXX-X');ga('send','pageview');
+    </script>
+    <!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-503fc855387866b5"></script>
+
+  </body>
+</html>

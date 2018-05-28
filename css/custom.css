@@ -1,0 +1,182 @@
+@font-face {
+    font-family: 'Gotham';
+    src: url('./fonts/GothamLight.eot');
+    src: url('./fonts/GothamLight.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/GothamLight.woff2') format('woff2'),
+        url('./fonts/GothamLight.woff') format('woff'),
+        url('./fonts/GothamLight.ttf') format('truetype'),
+        url('./fonts/GothamLight.svg#GothamLight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham Book';
+    src: url('fonts/GothamBook.eot');
+    src: url('fonts/GothamBook.eot?#iefix') format('embedded-opentype'),
+        url('fonts/GothamBook.woff2') format('woff2'),
+        url('fonts/GothamBook.woff') format('woff'),
+        url('fonts/GothamBook.ttf') format('truetype'),
+        url('fonts/GothamBook.svg#GothamBook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('./fonts/GothamMedium.eot');
+    src: url('./fonts/GothamMedium.eot?#iefix') format('embedded-opentype'),
+        url('fonts/GothamMedium.woff2') format('woff2'),
+        url('fonts/GothamMedium.woff') format('woff'),
+        url('fonts/GothamMedium.ttf') format('truetype'),
+        url('fonts/GothamMedium.svg#GothamMedium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+.text-lux {
+    font-family: 'Gotham', Helvetica;
+    font-weight: 300 !important;
+    font-size: 40px;
+    color: #d6c99d;
+}
+
+#text-lux {
+    font-family: 'Gotham', Helvetica;
+    font-weight: 300 !important;
+    font-size: 40px;
+}
+
+.lux-image-home {
+	margin-top: 40px;
+	margin-bottom: -50px;
+}
+
+.text-lux-small {
+    font-family: 'Gotham', Helvetica;
+    font-weight: 300 !important;
+    font-size: 16px;
+    color: #d6c99d;
+}
+
+.lux-line {
+	color: #d6c99d;
+}
+
+hr {
+	border-top: 1px solid #d6c99d;
+}
+
+.lux-button {
+	font-family: 'Gotham', Helvetica, Arial;
+	color: #fff;
+	background-color: #d6c99d;
+	font-size: 16px;
+	border-radius: 30px;
+	margin: 50px 0px;
+	padding: 10px 12px;
+	border: solid 1px #fff;
+	font-weight: 300;
+}
+/*Clear BootStrap NavBar*/
+.nav .navbar-social > a {
+    padding:0;
+}
+.nav>li>a:hover, .nav>li>a:focus {
+    background-color: transparent;
+}
+
+.navbar {
+	box-shadow: none !important;
+	z-index: 5;
+}
+
+.game-tab {
+	background-position:center center;
+	background-size:cover;
+	height:auto;/*left:0*/;
+	min-height:100%;/*min-width:100%*/;
+	position:absolute;
+	top:0;
+	width:50%;
+	right: 0;
+}
+
+.lux-form {
+	margin-top: 0px;
+}
+
+.form-group[placeholder] {
+	color: #000000;
+}
+
+.form-control::placeholder {
+	color: #000000;
+	opacity: 0.3;
+}
+
+.form-control {
+	border-radius: 12px;
+	font-family: 'Gotham';
+}
+
+input[type="text" i] {
+	font-family: 'Gotham';
+	/*color: #fff;*/
+	width: 300px;
+	font-size: 14px;
+	font-weight: 300;
+	background-color: #fff;
+	padding: 5px 10px;
+	max-width: 300px;
+	border-radius: 12px;
+	margin: 10px 20px;
+}
+
+textarea {
+	font-family: 'Gotham';
+	/*color: #fff;*/
+	width: 300px;
+	font-size: 14px;
+	font-weight: 300;
+	background-color: #fff;
+	padding: 5px 10px;
+	max-width: 300px;
+	border-radius: 12px;
+	margin: 10px 20px;
+}
+
+label {
+	font-family: 'Gotham';
+	color: #fff;
+	font-size: 14px;
+	font-weight: 300;
+}
+
+input[type=file] {
+		font-family: 'Gotham';
+	/*color: #fff;*/
+	font-size: 14px;
+	font-weight: 300;
+	background-color: #fff;
+	padding: 5px 10px;
+	max-width: 300px;
+	border-radius: 12px;
+}
+
+.form-control:focus {
+	border-color: #d6c99d;
+}
+
+.options input, .options button {
+  width:100%;
+  margin:1em;
+
+}
+
+.options input:last-of-type {
+  width: 100%;
+}
+.options button {
+  font-size:1em;
+}
